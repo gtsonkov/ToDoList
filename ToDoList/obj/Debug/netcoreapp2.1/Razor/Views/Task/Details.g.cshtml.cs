@@ -84,12 +84,12 @@ WriteAttributeValue("", 207, Model.Title, 207, 12, false);
             WriteLiteral("</textarea>\r\n    ");
             EndContext();
             BeginContext(346, 340, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b7330226ccf543bcb5d1be1a4fae8db4", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "43d4165103c54280a0f0bf2f8722244b", async() => {
                 BeginContext(366, 10, true);
                 WriteLiteral("\r\n        ");
                 EndContext();
                 BeginContext(376, 158, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("button", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a9065e3842494b5fa20bd09fd4f3265f", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("button", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d72c3856de66435e998d9291b668b23f", async() => {
                     BeginContext(518, 7, true);
                     WriteLiteral("Confirm");
                     EndContext();
@@ -129,7 +129,7 @@ WriteAttributeValue("", 207, Model.Title, 207, 12, false);
                 WriteLiteral("\r\n        ");
                 EndContext();
                 BeginContext(544, 129, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("button", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5dbea6b1eb4a448f8818a22ea6c7e369", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("button", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "659c4133c3de461989b04c17cdfe6e0d", async() => {
                     BeginContext(658, 6, true);
                     WriteLiteral("Cancel");
                     EndContext();
