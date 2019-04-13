@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ToDoList - Skeleton\\ToDoList\\ToDoList.csproj": {}
+    "D:\\SoftUni\\OneDrive\\C#\\ToDoList\\ToDoList\\ToDoList.csproj": {}
   },
   "projects": {
-    "D:\\ToDoList - Skeleton\\ToDoList\\ToDoList.csproj": {
+    "D:\\SoftUni\\OneDrive\\C#\\ToDoList\\ToDoList\\ToDoList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ToDoList - Skeleton\\ToDoList\\ToDoList.csproj",
+        "projectUniqueName": "D:\\SoftUni\\OneDrive\\C#\\ToDoList\\ToDoList\\ToDoList.csproj",
         "projectName": "ToDoList",
-        "projectPath": "D:\\ToDoList - Skeleton\\ToDoList\\ToDoList.csproj",
+        "projectPath": "D:\\SoftUni\\OneDrive\\C#\\ToDoList\\ToDoList\\ToDoList.csproj",
         "packagesPath": "C:\\Users\\Tsonkov\\.nuget\\packages\\",
-        "outputPath": "D:\\ToDoList - Skeleton\\ToDoList\\obj\\",
+        "outputPath": "D:\\SoftUni\\OneDrive\\C#\\ToDoList\\ToDoList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
