@@ -27,6 +27,7 @@ namespace ToDoList.Controllers
         public IActionResult Create(string title, string comments)
         {
             if (string.IsNullOrEmpty(title) || string.IsNullOrEmpty(comments))
+            //if (!(ModelState.IsValid))
             {
                 return RedirectToAction("Index");
             }

@@ -80,12 +80,12 @@ using ToDoList.Models;
             WriteLiteral("</p>\r\n            <div class=\"d-flex justify-content-between align-items-center\">\r\n                ");
             EndContext();
             BeginContext(335, 328, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a8e9c76aa96e4b09b781b2d81ae873b4", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7811f67069b44a18945b0af59b0a8b77", async() => {
                 BeginContext(341, 22, true);
                 WriteLiteral("\r\n                    ");
                 EndContext();
                 BeginContext(363, 129, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("button", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "811f512b19014d0cb6d4102aea9a691e", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("button", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5f74ce5f2f98485e9f054b8e87471dbd", async() => {
                     BeginContext(477, 6, true);
                     WriteLiteral("Delete");
                     EndContext();
@@ -124,7 +124,7 @@ using ToDoList.Models;
                 WriteLiteral("\r\n                    ");
                 EndContext();
                 BeginContext(514, 124, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("button", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "befd5d333afa4c399fbfb6696dff7b18", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("button", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9d1b699160264eea9b6451a548634050", async() => {
                     BeginContext(625, 4, true);
                     WriteLiteral("Edit");
                     EndContext();
