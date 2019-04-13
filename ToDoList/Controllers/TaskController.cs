@@ -80,7 +80,7 @@ namespace ToDoList.Controllers
             }
         }
 
-        [HttpGet]
+        
         public IActionResult Details(int Id)
         {
             using (var db = new ToDoDb())
@@ -90,10 +90,23 @@ namespace ToDoList.Controllers
                 {
                     return RedirectToAction("Index");
                 }
-                db.Task.Remove(taskToDelete);
-                db.SaveChanges();
-                return RedirectToAction("Index");
+                return View(taskToDelete);
             }
+        }
+
+        public IActionResult Delete (int Id)
+        {
+            using (var db = new ToDoDb())
+            {
+                var oldTask = db.Task.FirstOrDefault(t => t.Id == Id);
+                if (oldTask == null)
+                {
+                    return RedirectToAction("Index");
+                }
+                db.Task.Remove(oldTask);
+                db.SaveChanges();
+            }
+            return RedirectToAction("Index");
         }
     }
 }
