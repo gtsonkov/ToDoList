@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SoftUni\\OneDrive\\C#\\ToDoList\\ToDoList\\ToDoList.csproj": {}
+    "D:\\Cloud\\OneDrive\\C#\\ToDoList\\ToDoList\\ToDoList.csproj": {}
   },
   "projects": {
-    "D:\\SoftUni\\OneDrive\\C#\\ToDoList\\ToDoList\\ToDoList.csproj": {
+    "D:\\Cloud\\OneDrive\\C#\\ToDoList\\ToDoList\\ToDoList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SoftUni\\OneDrive\\C#\\ToDoList\\ToDoList\\ToDoList.csproj",
+        "projectUniqueName": "D:\\Cloud\\OneDrive\\C#\\ToDoList\\ToDoList\\ToDoList.csproj",
         "projectName": "ToDoList",
-        "projectPath": "D:\\SoftUni\\OneDrive\\C#\\ToDoList\\ToDoList\\ToDoList.csproj",
+        "projectPath": "D:\\Cloud\\OneDrive\\C#\\ToDoList\\ToDoList\\ToDoList.csproj",
         "packagesPath": "C:\\Users\\Tsonkov\\.nuget\\packages\\",
-        "outputPath": "D:\\SoftUni\\OneDrive\\C#\\ToDoList\\ToDoList\\obj\\",
+        "outputPath": "D:\\Cloud\\OneDrive\\C#\\ToDoList\\ToDoList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
@@ -27,7 +27,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/roslyn/api/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.1": {
@@ -56,16 +57,23 @@
               "version": "[2.1.4, )"
             },
             "Microsoft.NETCore.App": {
+              "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

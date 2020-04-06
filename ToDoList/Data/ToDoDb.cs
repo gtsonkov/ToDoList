@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace ToDoList.Data 
+﻿namespace ToDoList.Data 
 {
     using Microsoft.EntityFrameworkCore;
     using ToDoList.Models;
@@ -11,7 +6,7 @@ namespace ToDoList.Data
     {
         public DbSet<Task> Task { get; set; }
 
-        private const string ConnectionString = @"Server=.\TSSQL;Database=ToDoDb;Integrated Security=true;";
+        private const string ConnectionString = @"Server=***;Database=ToDoDb;Integrated Security=false; User Id=sa;Password=***";
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
